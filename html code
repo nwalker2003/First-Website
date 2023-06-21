@@ -1,32 +1,67 @@
-<index class="html"></index>
+<!DOCTYPE html>
+<html>
 <head>
-    <h1> Home page </h1>
-        <h2> Nolan Walker </h2>
-        <h3> Welcome to my first website! </h3>
+  <title>Homepage</title>
+  <!-- Author: Nolan Walker -->
+  <style>
+    .juneteenth-link { color: blue; }
+    .garfield-link { color: green; }
+  </style>
 </head>
 <body>
-    <h4> Here are some links to two holidays going on today. Read for some fun facts!! </h4>
-    <ul>
-        <li>Click <a href="#one">here</a> for Juneeteenth</li>
-        <li>Click <a href="#two">here</a> for page 2</li>
-    </ul>
-    
-    <div class="page" id="one">
-        Content of page 1 goes here.
-    
-        <ul>
-            <li><a href="#">Back</a></li>
-            <li><a href="#two">Page 2</a></li>
-        </ul>
-    </div>
-    
-    <div class="page" id="two">
-        Content of page 2 goes here.
-    
-        <ul style="margin-bottom: 100vh;">
-            <li><a href="#">Back</a></li>
-            <li><a href="#one">Page 1</a></li>
-        </ul>
-    </div>
+  <h1>Welcome to My Homepage</h1>
+  <p>
+    <a href="june19.html" class="juneteenth-link">Juneteenth Page</a><br>
+    <a href="juneOther.html" class="garfield-link">Garfield Page</a>
+  </p>
 </body>
- 
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juneteenth Page</title>
+  <!-- Author: Nolan Walker -->
+</head>
+<body>
+  <h1>Juneteenth Celebration</h1>
+  <img src="Juneteenth.jpg" width="400" height="180 "alt="Juneteenth Celebration">
+  <p>Juneteenth, also known as Freedom Day, commemorates the emancipation of enslaved African Americans in the United States.</p>
+  <p>Two facts about Juneteenth:</p>
+  <ul>
+    <li>Fact 1: Juneteenth originated in Texas and is now recognized as a holiday in various states across the country.</li>
+    <li>Fact 2: It marks the day, June 19, 1865, when Union soldiers arrived in Galveston, Texas, to announce the end of slavery after the Civil War.</li>
+  </ul>
+  <p>Credits:</p>
+  <ul>
+    <li>Image created by Nolan Walker</li>
+    <li>Facts sourced from: https://www.goldenwestcollege.edu/rising/juneteenth/index.html#:~:text=Fun%20Facts%20About%20Juneteenth,groups%20have%20Miss%20Junteenth%20contests.</li>
+  </ul>
+  <hr>
+</div>
+<div class="page-break"></div>
+<div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>National Watch Day</title>
+  <!-- Author: Nolan Walker -->
+</head>
+<body>
+  <h1>National Garfield The Cat Day</h1>
+  <img src="Garfield.jpg" width="400" height="180 alt="National Garfield The Cat Day">
+  <p>This page is dedicated to another holiday today, National Garfield The Cat Day!.</p>
+  <p>Two facts about National Garfield The Cat Day:</p>
+  <ul>
+    <li>Fact 1: Garfield The Cat, a comic strip created by Jim Davis, has been going on since June 19th 1978!</li>
+    <li>Fact 2: Garfield has expaned from just a comic strip to include TV shows, movies, books, and many collectibles!</li>
+  </ul>
+  <p>Credits:</p>
+  <ul>
+    <li>Image created by Nolan Walker</li>
+    <li>Facts sourced from: https://nationaldaycalendar.com/national-garfield-the-cat-day-june-19/#:~:text=Each%20year%20on%20June%2019th,the%20entertainment%20he%20brings%20us.</li>
+    <hr>
+  </ul>
+</body>
+</html>
